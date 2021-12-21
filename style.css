@@ -110,6 +110,50 @@ header div {
     margin-bottom: 12%;
 }
 
+.bg-1 {
+    background-color: #9ec2ba;
+    /* Green */
+    color: #ffffff;
+    animation: mymove 5s infinite;
+}
+
+#Scary_Blur {
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+@keyframes mymove {
+    0% {
+        background-color: blueviolet;
+    }
+
+    50% {
+        background-color: aqua;
+    }
+
+    100% {
+        background-color: greenyellow;
+    }
+}
+
+@-webkit-keyframes image_blur {
+    0% {
+        -webkit-filter: blur(0px);
+    }
+
+    50% {
+        -webkit-filter: blur(5px);
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+    }
+}
+
+#Scary_Blur:hover {
+    -webkit-animation: image_blur 2s;
+}
+
 /*footer*/
 
 footer {
