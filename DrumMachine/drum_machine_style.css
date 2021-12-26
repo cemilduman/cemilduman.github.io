@@ -1,0 +1,42 @@
+@import 'https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap';
+
+html,
+body {
+    background: linear-gradient(to left, #aa7875, #d35e33);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Moo Lah Lah', sans-serif;
+    font-size: 25px;
+}
+
+#first-group button {
+    width: 7rem;
+    height: 7rem;
+    color: blueviolet;
+    background-color: cadetblue;
+    font-size: x-large;
+    margin: 3px;
+}
+
+#second-group button {
+    width: 7rem;
+    height: 7rem;
+    color: blueviolet;
+    background-color: red;
+    font-size: x-large;
+    margin: 3px;
+}
+
+#third-group button {
+    width: 7rem;
+    height: 7rem;
+    color: orange;
+    background-color: yellow;
+    font-size: x-large;
+    margin: 3px;
+}
