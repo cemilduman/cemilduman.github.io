@@ -151,9 +151,13 @@ header div {
 }
 
 #Scary_Blur:hover {
+<<<<<<< HEAD
 
     -webkit-animation: image_blur 2s;
 
+=======
+    -webkit-animation: image_blur 2s;
+>>>>>>> 69748a4349440c0ca0d8e26ea406c0d1c88f5eba
 }
 
 /*footer*/
